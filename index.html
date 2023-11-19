@@ -1,0 +1,156 @@
+<!-- 
+
+      ************************************************************
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+{   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  }
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+      ************************************************************
+ -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=7" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+  <meta name="author" content="Aryan Maurya" />
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="favicon.png" />
+  <!-- <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> -->
+  <meta
+    name="description"
+    content="This is online Survival game build for your imporove thing skill in this domain by aryan maurya enjoy your game"
+  />
+  <meta
+    name="keywords"
+    content="surviweal,Survival game,game of surviv ,new battle,suriviw of bat,tread,treading,buy ,nrew game,onliner ghame,amsrhub,gamehub,play onle game,gamesnest ,play random,treading game,gaming m,mmut,nudes ,game,best game,pubgy game"
+  />
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+<title>Survival Game</title>
+</head>
+<body>
+<div class="navbar">
+  <a id="navbar-home">HOME</a>
+  <a id="navbar-forest">FOREST</a>
+  <a id="navbar-resident">RESIDENT</a>
+  <div class="dropdown">
+    <button class="dropbtn">MORE
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a>STATISTICS</a>
+      <a id="info-button" onclick=infoView.init()>INFO</a>
+      <a>SETTINGS</a>
+      <a onclick="signin()">SIGNIN</a>
+      <a>LOGIN</a>
+    </div>
+  </div>
+</div>
+
+<div class="story">
+  <p id=story></p>
+  <button id=story-button class="story">NEXT</button>
+</div>
+<div class="start">
+  <p id=title>Survival
+    <br>Game
+  </p>
+  <button class="start" id="start-button">START GAME</button>
+</div>
+<div class=home>
+  <div id=hauptlager class="card home list">
+    <h3 id=inventorytxt>Inventory</h3>
+    <div id="woods">Woods : 10</div>
+    <div id=foods>Food : 10</div>
+    <div id=water>Water : 10</div>
+    <div id=cloth>Cloth : 30</div>
+    <div id=verteidigung>Defences : 10</div>
+    <div id=tage>Survived Days : 0</div>
+  </div>
+  <div id="comfortable" class="card home list">
+    <h3 id=comfort>Comfortable</h3>
+    <div id=trap> Trap : 0</div>
+    <div id=torch> Torch : 0 </div>
+    <div id=watercollecter> Water Collector : 0</div>
+  </div>
+  <div id=craft class="card home craft list">
+    <h3 id="crafttxt">Craft</h3>
+    <div id=fences>Repair Fences = 5 Wood</div>
+    <div id=campfire>Torch = 10 Wood</div>
+    <div id=trapup>Trap = 20 Wood</div>
+    <div id=watercollectorbtn>Water Collector = 50 Wood, 20 Cloth</div>
+  </div>
+</div>
+<div class="forest">
+  <div id=foresttxt class=forest>A Dark Forest.....</div>
+  <progress id=woodbar min=0 max=100 value=0></progress>
+  <button id="forest-search-button" class="forest">Collect Resources</button>
+  <div id=forestlist class="forest card list">
+    <p>possible resource that could be found :</p>
+    <div>food (1-5)</div>
+    <div>wood (10-20)</div>
+    <div>water (1-5)</div>
+    <div>cloth (2-6)</div>
+  </div>
+</div>
+
+<div class="resident">
+  <div id=residenttxt class="resident">The neighborhood</div>
+  <progress class="resident" min="0" max="100" value=0></progress>
+  <button id="resident-search-button" class="resident">Search Nearest Resident</button>
+  <div id=residentlist class="resident card list">
+    <p>possible resource that could be found :</p>
+    <div>food (3-8)</div>
+    <div>wood (3-8)</div>
+    <div>water (5-10)</div>
+    <div>cloth (5-15)</div>
+  </div>
+</div>
+
+<div class="signin card" align="center">
+  <p id="signintxt">Sign in</p>
+  <hr>
+  <form>
+    <input type="text" placeholder="Username">
+    <input type="text" placeholder="Password">
+    <br />
+    <button onclick="createUser()">Sign in</button>
+  </form>
+</div>
+<div id=alert class="dark">
+  <h2 id=alert-title></h2>
+  <p id=alert-text></p>
+  <button id=alert-button></button>
+</div>
+
+<script>
+  const woodsElem = document.getElementById('woods');
+  const foodsElem = document.getElementById('foods');
+  const waterElem = document.getElementById('water');
+</script>
+</body>
+</html>
+
+<!-- 
+
+      ************************************************************
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+{   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  }
+
+           ++++++++++++++    --------    +++++++++++++++++
+
+      ************************************************************
+ -->
