@@ -4,7 +4,7 @@ Survive against the odds in this intense and immersive Survival Game! 🌲🔥�
 
 ## Play the Game
 
-[Play Now](https://your-username.github.io/survival-game/) 🕹️
+[Play Now](https://aryan0-1maurya.github.io/survival-game/) 🕹️
 
 ## About the Game
 
